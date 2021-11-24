@@ -1,184 +1,517 @@
-<!DOCTYPE HTML>
-<!--
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Stellar by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Survey on Fashion Recommendation</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Slick slider -->
+    <link href="assets/css/slick.css" rel="stylesheet">
+    <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <!-- Main Style -->
+    <link href="style.css" rel="stylesheet">
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<span class="logo"><img src="images/logo.svg" alt="" /></span>
-						<h1>Stellar</h1>
-						<p>Just another free, fully responsive site template<br />
-						built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</header>
+    <!-- Fonts -->
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="#intro" class="active">Introduction</a></li>
-							<li><a href="#first">First Section</a></li>
-							<li><a href="#second">Second Section</a></li>
-							<li><a href="#cta">Get Started</a></li>
-						</ul>
-					</nav>
+    <!-- Open Sans for body font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
+    <!-- Lato for Title -->
+  	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+ 
+ 
+	
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-				<!-- Main -->
-					<div id="main">
+  <body>
 
-						<!-- Introduction -->
-							<section id="intro" class="main">
-								<div class="spotlight">
-									<div class="content">
-										<header class="major">
-											<h2>Ipsum sed adipiscing</h2>
-										</header>
-										<p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-										adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-										Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
-										<ul class="actions">
-											<li><a href="generic.html" class="button">Learn More</a></li>
-										</ul>
-									</div>
-									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
-								</div>
-							</section>
+   	
+  	<!-- Start Header -->
+	<header id="mu-header" class="" role="banner">
+		<div class="container">
+			<nav class="navbar navbar-default mu-navbar">
+			  	<div class="container-fluid">
+				    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
 
-						<!-- First Section -->
-							<section id="first" class="main special">
-								<header class="major">
-									<h2>Magna veroeros</h2>
-								</header>
-								<ul class="features">
-									<li>
-										<span class="icon solid major style1 fa-code"></span>
-										<h3>Ipsum consequat</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-									</li>
-									<li>
-										<span class="icon major style3 fa-copy"></span>
-										<h3>Amed sed feugiat</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-									</li>
-									<li>
-										<span class="icon major style5 fa-gem"></span>
-										<h3>Dolor nullam</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-									</li>
-								</ul>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>
-							</section>
+				      <!-- Text Logo -->
+				      <a class="navbar-brand" href="index.html"><i class="fa fa-book" aria-hidden="true"></i> Survey on Fashion</a>
 
-						<!-- Second Section -->
-							<section id="second" class="main special">
-								<header class="major">
-									<h2>Ipsum consequat</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
-								</header>
-								<ul class="statistics">
-									<li class="style1">
-										<span class="icon solid fa-code-branch"></span>
-										<strong>5,120</strong> Etiam
-									</li>
-									<li class="style2">
-										<span class="icon fa-folder-open"></span>
-										<strong>8,192</strong> Magna
-									</li>
-									<li class="style3">
-										<span class="icon solid fa-signal"></span>
-										<strong>2,048</strong> Tempus
-									</li>
-									<li class="style4">
-										<span class="icon solid fa-laptop"></span>
-										<strong>4,096</strong> Aliquam
-									</li>
-									<li class="style5">
-										<span class="icon fa-gem"></span>
-										<strong>1,024</strong> Nullam
-									</li>
-								</ul>
-								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>
-							</section>
+				      <!-- Image Logo -->
+				      <!-- <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"></a> -->
 
-						<!-- Get Started -->
-							<section id="cta" class="main special">
-								<header class="major">
-									<h2>Congue imperdiet</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
-								</header>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="generic.html" class="button primary">Get Started</a></li>
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>
-							</section>
 
+				    </div>
+
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      	<ul class="nav navbar-nav mu-menu navbar-right">
+					        <li><a href="#">HOME</a></li>
+					        <li><a href="#mu-book-overview">Papers</a></li>
+<!--					        <li><a href="#mu-author">AUTHOR</a></li>-->
+				            <li><a href="#mu-pricing">Team</a></li>
+<!--				            <li><a href="#mu-testimonials">TESTIMONIALS</a></li>-->
+				            <li><a href="#mu-contact">CONTACT</a></li>
+				      	</ul>
+				    </div><!-- /.navbar-collapse -->
+			  	</div><!-- /.container-fluid -->
+			</nav>
+		</div>
+	</header>
+	<!-- End Header -->
+
+	<!-- Start Featured Slider -->
+
+	<section id="mu-hero">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-6 col-sm-6 col-sm-push-6">
+					<div class="mu-hero-right">
+						<img src="assets/images/ebook.png" alt="Ebook img">
 					</div>
+				</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<h2>Aliquam sed mauris</h2>
-							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn More</a></li>
-							</ul>
-						</section>
-						<section>
-							<h2>Etiam feugiat</h2>
-							<dl class="alt">
-								<dt>Address</dt>
-								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
-								<dt>Phone</dt>
-								<dd>(000) 000-0000 x 0000</dd>
-								<dt>Email</dt>
-								<dd><a href="#">information@untitled.tld</a></dd>
-							</dl>
-							<ul class="icons">
-								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
-							</ul>
-						</section>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
+				<div class="col-md-6 col-sm-6 col-sm-pull-6">
+					<div class="mu-hero-left">
+						<h1>Survey on Fashion Recommendation</h1>
+						<p>
+                            From Fashion Item to Outfit Recommendation: Literature Review
+                        </p>
+						<a href="#" class="mu-primary-btn">Download Now!</a>
+						<span>*Avaliable in PDF</span>
+					</div>
+				</div>	
 
 			</div>
+		</div>
+	</section>
+	
+	<!-- Start Featured Slider -->
+	
+	<!-- Start main content -->
+		
+	<main role="main">
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<!-- Start Book Overview -->
+		<section id="mu-book-overview">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-book-overview-area">
 
-	</body>
+							<div class="mu-heading-area">
+								<h2 class="mu-heading-title">Papers</h2>
+								<span class="mu-header-dot"></span>
+								<p>Reviewed papers includeings their datasets and source codes links</p>
+							</div>
+
+							<!-- Start Book Overview Content -->
+							<div class="mu-book-overview-content">
+								<div class="row">
+
+									<!-- Book Overview Single Content -->
+									<div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                POG: Personalized Outfit Generation for Fashion Recommendation at Alibaba iFashion, 2019. [<a href="https://arxiv.org/pdf/1905.01866.pdf" target="_blank">Preprint</a>][Codes][<a href="https://github.com/wenyuer/POG" target="_blank">Data</a>]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- Book Overview Single Content -->
+									<div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Learning fashion compatibility across apparel categories for outfit recommendation, 2019. [<a href="https://arxiv.org/pdf/1905.03703.pdf" target="_blank">Preprint</a>][Codes][Data]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                FashionNet: Personalized Outfit Recommendation with Deep Neural Network, 2018. [<a href="https://arxiv.org/pdf/1810.02443.pdf" target="_blank">Preprint</a>][Codes][Data]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Collaborative Fashion Recommendation: A Functional Tensor Factorization Approach, 2015. [<a href="https://dl.acm.org/doi/10.1145/2733373.2806239" target="_blank">Preprint</a>][Codes][Data]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Explainable Fashion Recommendation with Joint Outfit Matching and Comment Generation, 2018. [<a href="https://arxiv.org/pdf/1806.08977.pdf" target="_blank">Preprint</a>][<a href="https://bitbucket.org/Jay_Ren/fashion_recommendation_tkde2018_code_dataset" target="_blank">Codes</a>][<a href="https://bitbucket.org/Jay_Ren/fashion_recommendation_tkde2018_code_dataset" target="_blank">Data</a>]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Improving Outfit Recommendation with Co-supervision of Fashion Generation, 2019. [<a href="https://arxiv.org/pdf/1908.09104.pdf" target="_blank">Preprint</a>][<a href="https://bitbucket.org/Jay_Ren/www2019_fas" target="_blank">Codes</a>][<a href="https://bitbucket.org/Jay_Ren/www2019_fas" target="_blank">Data</a>]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Fashion Recommendations through Cross-media Information Retrieval, 2019. [<a href="https://doi.org/10.1016/j.jvcir.2019.03.003" target="_blank">Preprint</a>][Codes][Data]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Learning Discrete Hashing Towards Efficient Fashion Recommendation, 2018. [<a href="https://doi.org/10.1007/s41019-018-0079-z" target="_blank">Preprint</a>][Codes][Data]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Personalized Clothing Recommendation Combining User Social Circle and Fashion Style Consistency, 2018. [<a href="https://link.springer.com/article/10.1007/s11042-017-5245-1" target="_blank">Preprint</a>][Codes][Data]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Toward Explainable Fashion Recommendation, 2019. [<a href="https://arxiv.org/pdf/1901.04870.pdf" target="_blank">Preprint</a>][Codes][Data]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Enhancing Fashion Recommendation with Visual Compatibility Relationship, 2019. [<a href="https://doi.org/10.1145/3308558.3313739" target="_blank">Preprint</a>][Codes][Data]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Deep Style Match for Complementary Recommendation, 2017. [<a href="https://arxiv.org/pdf/1708.07938.pdf" target="_blank">Preprint</a>][Codes][Data]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Learning to Style-Aware Bayesian Personalized Ranking for Visual Recommendation, 2019. [<a href="https://doi.org/10.1109/ACCESS.2019.2892984" target="_blank">Preprint</a>][Codes][Data]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Visually-Aware Fashion Recommendation and Design with Generative Image Models, 2017. [<a href="https://arxiv.org/pdf/1711.02231.pdf" target="_blank">Preprint</a>][<a href="https://github.com/kang205/DVBPR" target="_blank">Codes</a>][<a href="https://github.com/kang205/DVBPR" target="_blank">Data</a>]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Explainable Fashion Recommendation: A Semantic Attribute Region Guided Approach, 2019. [<a href="https://arxiv.org/pdf/1711.02231.pdf" target="_blank">Preprint</a>][Codes][Data]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Image-based Recommendations on Styles and Substitutes, 2015. [<a href="https://cseweb.ucsd.edu/~jmcauley/pdfs/sigir15.pdf" target="_blank">Preprint</a>][<a href="https://cseweb.ucsd.edu/~jmcauley/code/productGraph.tar.gz" target="_blank">Codes</a>][<a href="https://nijianmo.github.io/amazon/index.html" target="_blank">Data</a>]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Image Based Fashion Product Recommendation with Deep Learning, 2018. [<a href="https://arxiv.org/abs/1805.08694" target="_blank">Preprint</a>][Codes][<a href="http://imagelab.ing.unimore.it/fashion_dataset.asp" target="_blank">Data</a>]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Personalizing Similar Product Recommendations in Fashion E-commerce, 2018. [<a href="http://arxiv.org/abs/1806.11371" target="_blank">Preprint</a>][Codes][Data]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Enhancing Visual Fashion Recommendations with Users in the Loop, 2014. [<a href="http://arxiv.org/abs/1405.4013" target="_blank">Preprint</a>][Codes][Data]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Large Scale Visual Recommendations From Street Fashion Images, 2014. [<a href="http://arxiv.org/abs/1401.1778" target="_blank">Preprint</a>][Codes][Data]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Fashion Sensitive Clothing Recommendation Using Hierarchical Collocation Model, 2018. [<a href="https://doi.org/10.1145/3240508.3240596" target="_blank">Preprint</a>][Codes][Data]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Product Characterisation towards Personalisation: Learning Attributes from Unstructured Data to Recommend Fashion Products, 2018. [<a href="http://arxiv.org/abs/1803.07679" target="_blank">Preprint</a>][Codes][Data]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                An LSTM-Based Dynamic Customer Model for Fashion Recommendation, 2017. [<a href="http://arxiv.org/abs/1708.07347" target="_blank">Preprint</a>][Codes][Data]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+                                    <!-- / Book Overview Single Content -->
+                                    <div class="col-md-12 col-sm-1">
+										<div class="mu-book-overview-single">
+											<p>
+                                                Fashion DNA: Merging Content and Sales Data for Recommendation and Article Mapping, 2016. [<a href="http://arxiv.org/abs/1609.02489" target="_blank">Preprint</a>][Codes][Data]
+                                            </p>
+										</div>
+									</div>
+									<!-- / Book Overview Single Content -->
+								</div>
+							</div>
+							<!-- End Book Overview Content -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Book Overview -->
+
+		<!-- End Author -->
+
+		<!-- Start Pricing -->
+		<section id="mu-pricing">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-pricing-area">
+
+							<div class="mu-heading-area">
+								<h2 class="mu-heading-title">Our Team</h2>
+								<span class="mu-header-dot"></span>
+<!--								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>-->
+							</div>
+
+							<!-- Start Pricing Content -->
+							<div class="mu-pricing-content">
+								<div class="row">
+                                    
+                                    <!--Pricing Single Content -->
+									<div class="col-sm-6 col-md-3">
+										<div class="mu-pricing-single">
+                                            <img class="mu-rt-img" src="assets/images/yashar.jpg" alt="img">
+                                            &ensp;
+											<div class="mu-pricing-single-head">
+												<h4>Yashar Deldjoo</h4>
+                                                <h4>Assistant Professor</h4>
+                                                <h4>Politecnico di Bari, Italy</h4>
+                                                &ensp;
+											</div>
+
+											<div class="mu-pricing-single-footer">
+												<a href="https://yasdel.github.io/" class="mu-order-btn">Website</a>
+											</div>
+
+										</div>
+									</div>
+									<!-- / Pricing Single Content -->
+
+                                    <!--Pricing Single Content -->
+									<div class="col-sm-6 col-md-3">
+										<div class="mu-pricing-single">
+                                            <img class="mu-rt-img" src="assets/images/fatemeh.JPG" alt="img">
+                                            &ensp;
+											<div class="mu-pricing-single-head">
+												<h4>Fatemeh Nazary</h4>
+                                                <h4>PhD Student</h4>
+                                                <h4>Politecnico di Bari, Italy</h4>
+                                                &ensp;
+											</div>
+
+											<div class="mu-pricing-single-footer">
+												<a href="https://scholar.google.it/citations?user=vlfSjVEAAAAJ&hl=en&oi=ao" class="mu-order-btn">Website</a>
+											</div>
+
+										</div>
+									</div>
+									<!-- / Pricing Single Content -->
+
+									<!-- Pricing Single Content -->
+									<div class="col-sm-6 col-md-3">
+										<div class="mu-pricing-single">
+                                            <img class="mu-rt-img" src="assets/images/saeed.jpg" alt="img">
+                                            &ensp;
+											<div class="mu-pricing-single-head">
+												<h4>Hossein A. Rahmani</h4>
+                                                <h4>Researcher</h4>
+                                                <h4>University of Zanjan, Iran</h4>
+                                                &ensp;
+											</div>                                          
+                                            
+											<div class="mu-pricing-single-footer">
+												<a href="https://rahmanidashti.github.io/" class="mu-order-btn">Website</a>
+											</div>
+                                            
+										</div>
+									</div>
+									<!-- / Pricing Single Content -->
+
+									<!-- Pricing Single Content -->
+									<div class="col-sm-6 col-md-3">
+										<div class="mu-pricing-single">
+                                            <img class="mu-rt-img" src="assets/images/dinoia.png" alt="img">
+                                            &ensp;
+											<div class="mu-pricing-single-head">
+												<h4>Tommaso Di Noia</h4>
+                                                <h4>Full Professor</h4>
+                                                <h4>Politecnico di Bari, Italy</h4>
+                                                &ensp;
+											</div>
+
+											<div class="mu-pricing-single-footer">
+												<a href="http://sisinflab.poliba.it/dinoia" class="mu-order-btn">Website</a>
+											</div>
+											
+										</div>
+									</div>
+									<!-- / Pricing Single Content -->
+
+								</div>
+							</div>
+							<!-- End Pricing Content -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Pricing -->
+
+		<!-- Start Contact -->
+		<section id="mu-contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-contact-area">
+
+							<div class="mu-heading-area">
+								<h2 class="mu-heading-title">Drop us a Message</h2>
+								<span class="mu-header-dot"></span>
+								<p>We are working on improving this survey, If you have any suggestions, please feel free to contact me via srahmani@znu.ac.ir</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Contact -->
+
+	</main>
+	
+	<!-- End main content -->	
+				
+	<!-- Start footer -->
+	<footer id="mu-footer" role="contentinfo">
+		<div class="container">
+			<div class="mu-footer-area">
+				<p class="mu-copyright">&copy; Copyright <a rel="nofollow" href="http://markups.io">markups.io</a>. All right reserved.</p>
+			</div>
+		</div>
+
+	</footer>
+	<!-- End footer -->
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+	<!-- Slick slider -->
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <!-- Counter js -->
+    <script type="text/javascript" src="assets/js/counter.js"></script>
+    <!-- Ajax contact form  -->
+    <script type="text/javascript" src="assets/js/app.js"></script>
+   
+    <!-- Custom js -->
+	<script type="text/javascript" src="assets/js/custom.js"></script>
+	
+  </body>
 </html>
