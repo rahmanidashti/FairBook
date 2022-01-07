@@ -2,6 +2,7 @@
 This repository includes the implementation for FairBook.
 
 ## Dataset
+Book Crossing dataset
 
 ## Codes
 
@@ -9,12 +10,14 @@ This repository includes the implementation for FairBook.
 
 ## Reference
 
-@inproceedings{RecsysLab2021CAPRI,
+```
+@inproceedings{2022FairBook,
   title={TBD},
   author={TBA},
   booktitle={TBA},
-  year={2021}
+  year={2022}
 }
+```
 
 ## Team
 TBA
