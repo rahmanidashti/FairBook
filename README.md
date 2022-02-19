@@ -11,11 +11,12 @@ Book Crossing dataset
 ## Reference
 
 ```
-@inproceedings{2022FairBook,
-  title={TBD},
-  author={TBA},
-  booktitle={TBA},
-  year={2022}
+@inproceedings{naghiaei2022fairbook,
+title = {The Unfairness of Popularity Bias in Book Recommendation},
+author={Naghiaei, Mohammadmehdi and Rahmani, Hossein A. and Dehghan, Mahdi},
+booktitle = {Third International Workshop on Algorithmic Bias in Search and Recommendation (Bias@ECIR 2022)},
+year = {2022},
+url = {https://arxiv.org/abs/XXX},
 }
 ```
 
