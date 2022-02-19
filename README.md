@@ -1,5 +1,5 @@
 # FairBook
-This repository includes the implementation for FairBook.
+The recent study of Abdollahpouri et al. [1] in the domain of movie recommendation shows that the popularity bias causes unfair recommendations in respect to both the providers of less popular items and users with little interest in popular items. In this paper, we extend and reproduce the study of Abdollahpouri et al. [1] in the domain of book recommendation.
 
 ## Dataset
 Book Crossing dataset
