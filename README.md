@@ -1,6 +1,3 @@
-# Note
-This is an anonymous readme, which will be complete after the acceptance of the paper.
-
 # FairBook
 This repository includes the implementation for FairBook.
 
@@ -23,7 +20,7 @@ Book Crossing dataset
 ```
 
 ## Team
-TBA
+
 
 ## Acknowledgements
 TBA
