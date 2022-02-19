@@ -21,7 +21,11 @@ url = {https://arxiv.org/abs/XXX},
 ```
 
 ## Team
+<a href=#>Mohammadmehdi Naghiaei</a>, University of Southern California
 
+<a href=#>Hossein A. Rahmani</a>, Wen Intelligence Group, UCL
+
+<a href=#>Mahdi Dehghan</a>, SBU, Shahid Beheshti University
 
 ## Acknowledgements
 TBA
