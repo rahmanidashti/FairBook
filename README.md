@@ -2,7 +2,7 @@
 The recent study of Abdollahpouri et al. [1] in the domain of movie recommendation shows that the popularity bias causes unfair recommendations in respect to both the providers of less popular items and users with little interest in popular items. In this paper, we extend and reproduce the study of Abdollahpouri et al. [1] in the domain of book recommendation.
 
 ## Dataset
-Book Crossing dataset
+In this study, we use <a href=http://www2.informatik.uni-freiburg.de/~cziegler/BX/>`Book-Crossing`</a> dataset to evalue the performance and fairness of the models. 
 
 ## Codes
 
@@ -25,7 +25,7 @@ url = {https://arxiv.org/abs/XXX},
 
 <a href=#>Hossein A. Rahmani</a>, Wen Intelligence Group, UCL
 
-<a href=#>Mahdi Dehghan</a>, SBU, Shahid Beheshti University
+<a href=#>Mahdi Dehghan</a>, Shahid Beheshti University
 
 ## Acknowledgements
 TBA
