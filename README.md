@@ -11,10 +11,7 @@ In this study, we use <a href=http://www2.informatik.uni-freiburg.de/~cziegler/B
 
 ## Codes
 
-### Requirements
-
 ## Reference
-
 ```
 @inproceedings{naghiaei2022fairbook,
 title = {The Unfairness of Popularity Bias in Book Recommendation},
