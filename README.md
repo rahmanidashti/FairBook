@@ -4,6 +4,7 @@ The recent study of Abdollahpouri et al. [1] in the domain of movie recommendati
 ## Dataset
 In this study, we use <a href=http://www2.informatik.uni-freiburg.de/~cziegler/BX/>`Book-Crossing`</a> dataset to evalue the performance and fairness of the models. The dataset and user groups are accessible in the <a href='dataset/Bookcrossing'>`dataset`</a> folder. The foder contains the following files:
 
+- **<a href='dataset/Bookcrossing/user-group'>`user-group`</a> folder**: `active_users.txt`, `inactive_users.txt`, `medium_users.txt` which are related to `Niche`, `Diverse`, and `BestSeller` user groups, respectively.
 - **BX-Book-Ratings.csv**: The original `Book-Crossing` dataset which contains `User-ID`, `ISBN`, and `Book-Rating`.
 - **BX-Book-Explicit-5Rate-Map.csv**: The explicit 5-core book-crossing dataset in which the uesr and item IDs are mapped into new IDs. (*CSV format*).
 - **BX-Book-Explicit-5Rate-Map.txt**: The explicit 5-core book-crossing dataset in which the uesr and item IDs are mapped into new IDs. (*TXT format*).
