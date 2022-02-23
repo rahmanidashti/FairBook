@@ -31,4 +31,4 @@ url = {https://arxiv.org/abs/XXX},
 TBA
 
 ## Contact
-TBA
+If you have any questions, do not hesitate to contact us by `h.rahmani@ucl.ac.uk` or rahmanidashti@gmail.com, we will be happy to assist.
