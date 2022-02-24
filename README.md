@@ -19,7 +19,7 @@ The statistics of the datasets after preprocessing are as follows:
 - User Profile size per group: `{Niche: 14006, Diverse: 61889, BestSeller: 12657}`
 
 ## Codes
-We provide the <a href=#>`FairBook.ipynb`</a> to run the code and the model for the analysis and recommendation performacne. 
+We provide the <a href=https://colab.research.google.com/github/rahmanidashti/FairBook/blob/main/FairBook.ipynb>`FairBook.ipynb`</a> to run the code and the model for the analysis and recommendation performacne. 
 
 ## Reference
 ```
