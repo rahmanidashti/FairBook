@@ -10,6 +10,7 @@ In this study, we use <a href=http://www2.informatik.uni-freiburg.de/~cziegler/B
 - **BX-Book-Explicit-5Rate-Map.txt**: The explicit 5-core book-crossing dataset in which the uesr and item IDs are mapped into new IDs. (*TXT format*).
 
 ## Codes
+We provide the <a href=#>`recommendation.ipynb`</a> to run the code and the model for the analysis and recommendation performacne. 
 
 ## Reference
 ```
