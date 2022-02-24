@@ -10,15 +10,13 @@ In this study, we use <a href=http://www2.informatik.uni-freiburg.de/~cziegler/B
 - **BX-Book-Explicit-5Rate-Map.txt**: The explicit 5-core book-crossing dataset in which the uesr and item IDs are mapped into new IDs. (*TXT format*).
 
 ### BookCrossing
-The statistics of the datasets after preprocessing are as follows:
+The statistics of the datasets after preprocessing are as follows: 
 
-- Number of users: 
-- Number of items:
-- Number of interactions:
+- Number of users: 6,358 
+- Number of items: 6,921
+- Number of interactions: 88,552
 - User per groups: `{Niche: 1271, Diverse: 3816, BestSeller: 1271}`,
 - User Profile size per group: `{Niche: 14006, Diverse: 61889, BestSeller: 12657}`
-
-
 
 ## Codes
 We provide the <a href=#>`FairBook.ipynb`</a> to run the code and the model for the analysis and recommendation performacne. 
