@@ -30,6 +30,7 @@ The statistics of the datasets after preprocessing are as follows:
 We provide the <a href=https://colab.research.google.com/github/rahmanidashti/FairBook/blob/main/FairBook.ipynb>`FairBook.ipynb`</a> to run the code and the model for the analysis and recommendation performacne. 
 
 ## Reference
+Please cite our <a href="https://arxiv.org/abs/2202.13446">paper</a> if you use our datasets or implementations:
 ```
 @inproceedings{naghiaei2022fairbook,
 title = {The Unfairness of Popularity Bias in Book Recommendation},
